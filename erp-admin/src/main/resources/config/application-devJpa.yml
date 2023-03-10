@@ -1,0 +1,12 @@
+#jpa 的配置
+spring:
+    hibernate:
+        master:
+          hbm2ddl:
+            ddl-auto: none
+          dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        slave:
+          hbm2ddl:
+            ddl-auto: none
+          dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        show-sql: true
